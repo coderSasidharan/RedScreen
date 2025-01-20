@@ -49,7 +49,7 @@ while (cap.isOpened()):
     final_output = cv2.addWeighted(res_1, 1, res_2, 1, 0)
     output_file.write(final_output)
     #Displaying the output to the user
-    cv2.imshow("magic", final_output)
+    cv2.imshow("invisibility cloak", final_output)
     cv2.waitKey(1)
 
 
